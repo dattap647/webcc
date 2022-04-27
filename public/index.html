@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<title>RIT  College</title>
+	<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Rit Goa">
+ <meta name="author" content="Datta Patil">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body class="body">
+<header class="mainheader">
+	<h3>Information Store</h3>
+	
+
+	
+</header>
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/a.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/b.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/c.jpg">
+</div>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+		
+		<script type="text/javascript">
+  document.title="Home";
+</script>
+		
+				
+<script></script>
+<div class="mainContent" >
+	<div class="Content">
+		<article class="topContent">
+			<header>
+			 <h3><a href="#" title="My First Post">Blockchain Technology </a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is Posted by Datta Patil</p>
+			</footer>
+			<content>
+<p>Blockchain technology is a structure that stores transactional records, also known as the block, of the public in several databases, known as the “chain,” in a network connected through peer-to-peer nodes. Typically, this storage is referred to as a ‘digital ledger.’
+
+	Every transaction in this ledger is authorized by the digital signature of the owner, which authenticates the transaction and safeguards it from tampering. Hence, the information the digital ledger contains is highly secure.
+	
+	In simpler words, the digital ledger is like a Google spreadsheet shared among numerous computers in a network, in which, the transactional records are stored based on actual purchases. The fascinating angle is that anybody can see the data, but they can’t corrupt it.
+
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">NFT's</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by Abhijeet Singh</p>
+			</footer>
+			<content>
+<p>An NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos.
+
+	Although they’ve been around since 2014, NFTs are gaining notoriety now because they are becoming an increasingly popular way to buy and sell digital artwork. A staggering $174 million has been spent on NFTs since November 2017.
+	
+	NFTs are also generally one of a kind, or at least one of a very limited run, and have unique identifying codes. “Essentially, NFTs create digital scarcity,” says Arry Yu, chair of the Washington Technology Industry Association Cascadia Blockchain Council and managing director of Yellow Umbrella Ventures.
+	
+	This stands in stark contrast to most digital creations, which are almost always infinite in supply. Hypothetically, cutting off the supply should raise the value of a given asset, assuming it’s in demand.
+</p>
+			</content>
+		</article>
+
+		<article class="bottomContent">
+			<header>
+			<h3><a href="#" title="Pathway Programme">Bitcoins</a>	</h3>  
+			</header>
+			<footer>
+				<p class="post-info">This post is written by Abhijeet Singh</p>
+			</footer>
+			<content>
+<p>Bitcoin is a decentralized digital currency that you can buy, sell and exchange directly, 
+	without an intermediary like a bank. Bitcoin’s creator, Satoshi Nakamoto, originally described the need for “an electronic payment system based on
+	 cryptographic proof instead of trust".Each and every Bitcoin transaction that’s ever been made exists on a public ledger accessible to everyone, making transactions hard to reverse and difficult to fake. 
+	 That’s by design: Core to their decentralized nature, 
+	 Bitcoins aren’t backed by the government or any issuing institution, and there’s nothing to guarantee their value besides the proof baked in the heart of the system.
+   
+</p>
+			</content>
+		</article>
+	</div>
+</div>
+
+
+
+<footer class="mainFooter" >
+	<center> 
+		
+		<button type="button" class="block"  onclick="location.href='feedback.html'">Feedback</button>
+	
+	</center>
+	
+	<p>Copyright &copy <a href="https://www.facebook.com/datta.patil.501151/">Datta Patil</a> </p>
+	<center>
+	<a href="https://www.facebook.com/">Facebook</a>
+	<a href="https://www.twitter.com/IamBRP/">Twitter</a>
+	<a href="https://www.youtube.com/IamBRP/">Youtube</a>
+	</center>
+</footer>
+
+
+</body>
+</html>
